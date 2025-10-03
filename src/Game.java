@@ -7,5 +7,6 @@ public class Game {
 
         // Exemplo de atualização do JLabel
         window.updateLives(pacman.getLives()); // mostra vidas iniciais
+        window.updatePoints(pacman.getPoints()); // ganha pontos
     }
 }
